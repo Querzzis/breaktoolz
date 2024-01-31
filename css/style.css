@@ -15,24 +15,42 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h2 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 h4 {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: -20px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 a {
     color: white;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 25px;
+}
+
+p {
+    font-size: 30px;
+
 }
 
 .main {
     background-color: rgba(0, 0, 0, 0.5);
     display: block;
-    position: fixed;
+    position: relative;
     margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
     left: 0;
     right: 0;
     width: 80%;
@@ -41,6 +59,5 @@ a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     text-indent: 50px;
-    font-size: 30px;
-    line-height: 25px;
+    font-size: 20px;
 }
