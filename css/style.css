@@ -1,4 +1,46 @@
+body {
+    background-color: rgb(70, 70, 70);
+}
+
+header {
+    display: table;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 h1 {
-    color: plum;
+    color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: block;
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height: 100%;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-indent: 50px;
+    font-size: 30px;
+    line-height: 25px;
 }
